@@ -18,22 +18,26 @@ package cse360assign2;
 public class AddingMachine {
 
 	private int total;
+	private String st;
 	
 	public AddingMachine () {
-		total = 0;  // not needed - included for clarity
+		total = 0; // not needed - included for clarity
+		st="0";
 	}
 	/**
 	 * @Description This method is used to return the current total.
 	 * @return integer value of 'total'.
 	 */
 	public int getTotal () {
-		return 0;
+		return total;
 	}
 	/**
 	 * @Description This function adds the given parameter 'value' to 'total'.
 	 * @param value
 	 */
 	public void add (int value) {
+		total=total+value;
+		st=st+" + "+Integer.toString(value);
 		
 	}
 	/**
@@ -41,6 +45,8 @@ public class AddingMachine {
 	 * @param value
 	 */
 	public void subtract (int value) {
+		total=total-value;
+		st=st+" - "+Integer.toString(value);
 		
 	}
 	/**
@@ -50,13 +56,14 @@ public class AddingMachine {
 	 */
 		
 	public String toString () {
-		return "";
+		return st;
 	}
 	/**
-	 * @Description This function is used to clear the string
+	 * @Description This function is used to make total 0 and cleat the string
 	 */
 
 	public void clear() {
-	
+		total=0;
+		st="0";
 	}
 }
