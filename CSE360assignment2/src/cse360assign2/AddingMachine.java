@@ -29,14 +29,14 @@ public class AddingMachine {
 	 * @return integer value of 'total'.
 	 */
 	public int getTotal () {
-		return total;
+		return this.total;
 	}
 	/**
 	 * @Description This function adds the given parameter 'value' to 'total'.
 	 * @param value
 	 */
 	public void add (int value) {
-		total=total+value;
+		this.total=this.total+value;
 		st=st+" + "+Integer.toString(value);
 		
 	}
@@ -45,7 +45,7 @@ public class AddingMachine {
 	 * @param value
 	 */
 	public void subtract (int value) {
-		total=total-value;
+		this.total=this.total-value;
 		st=st+" - "+Integer.toString(value);
 		
 	}
@@ -59,7 +59,7 @@ public class AddingMachine {
 		return st;
 	}
 	/**
-	 * @Description This function is used to make total 0 and cleat the string
+	 * @Description This function is used to make total '0' and clear the string
 	 */
 
 	public void clear() {
