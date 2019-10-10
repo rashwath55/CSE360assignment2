@@ -23,7 +23,7 @@ class AddingMachineTest {
 		/*
 		*testing the add method
 		*/
-		AddingMachine test=new AddingMachine();
+		AddingMachine test = new AddingMachine();
 		test.add(5);
 		assertEquals(5,test.getTotal());
 	}
@@ -32,7 +32,7 @@ class AddingMachineTest {
 		/*
 		 *testing the subtract method 
 		 */
-		AddingMachine test=new AddingMachine();
+		AddingMachine test = new AddingMachine();
 		test.subtract(2);
 		assertEquals(-2,test.getTotal());
 	}
@@ -41,7 +41,7 @@ class AddingMachineTest {
 		/*
 		 *testing the subtract and add method combined
 		 */
-		AddingMachine test=new AddingMachine();
+		AddingMachine test = new AddingMachine();
 		test.subtract(2);
 		test.add(5);
 		assertEquals(3,test.getTotal());
@@ -51,7 +51,7 @@ class AddingMachineTest {
 		/*
 		 * testing the subtract,add,tostring methods methods
 		 */
-		AddingMachine test=new AddingMachine();
+		AddingMachine test = new AddingMachine();
 		test.subtract(2);
 		test.add(5);
 		test.add(5);
@@ -62,7 +62,7 @@ class AddingMachineTest {
 		/*
 		 * testing the subtract,add,tostring,clear method methods methods
 		 */
-		AddingMachine test=new AddingMachine();
+		AddingMachine test = new AddingMachine();
 		test.subtract(2);
 		test.add(5);
 		test.add(5);
@@ -74,7 +74,7 @@ class AddingMachineTest {
 		/*
 		 * testing the subtract,add,tostring,clear method methods methods
 		 */
-		AddingMachine test=new AddingMachine();
+		AddingMachine test = new AddingMachine();
 		test.subtract(2);
 		test.add(5);
 		test.add(5);

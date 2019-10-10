@@ -22,7 +22,7 @@ public class AddingMachine {
 	
 	public AddingMachine () {
 		total = 0; // not needed - included for clarity
-		st="0";
+		st = Integer.toString(total);
 	}
 	/**
 	 * @Description This method is used to return the current total.
@@ -36,8 +36,8 @@ public class AddingMachine {
 	 * @param value
 	 */
 	public void add (int value) {
-		this.total=this.total+value;
-		st=st+" + "+Integer.toString(value);
+		this.total = this.total + value;
+		st= st +" + " + Integer.toString(value);
 		
 	}
 	/**
@@ -45,8 +45,8 @@ public class AddingMachine {
 	 * @param value
 	 */
 	public void subtract (int value) {
-		this.total=this.total-value;
-		st=st+" - "+Integer.toString(value);
+		this.total = this.total-value;
+		st= st + " - " + Integer.toString(value);
 		
 	}
 	/**
@@ -63,7 +63,7 @@ public class AddingMachine {
 	 */
 
 	public void clear() {
-		total=0;
-		st="0";
+		total = 0;
+		st = "0";
 	}
 }
