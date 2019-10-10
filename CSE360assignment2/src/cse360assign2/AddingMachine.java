@@ -37,7 +37,7 @@ public class AddingMachine {
 	 */
 	public void add (int value) {
 		this.total = this.total + value;
-		st= st +" + " + Integer.toString(value);
+		st = st +" + " + Integer.toString(value);
 		
 	}
 	/**
@@ -46,7 +46,7 @@ public class AddingMachine {
 	 */
 	public void subtract (int value) {
 		this.total = this.total-value;
-		st= st + " - " + Integer.toString(value);
+		st = st + " - " + Integer.toString(value);
 		
 	}
 	/**
