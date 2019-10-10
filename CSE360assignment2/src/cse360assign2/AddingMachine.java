@@ -26,7 +26,7 @@ public class AddingMachine {
 	}
 	/**
 	 * @Description This method is used to return the current total.
-	 * @return integer value of 'total'.
+	 * @return total
 	 */
 	public int getTotal () {
 		return this.total;
